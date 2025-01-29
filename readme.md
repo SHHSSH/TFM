@@ -25,6 +25,22 @@ However, this doesn't mean benchmarking from the current machine is entirely use
     Immediate Feedback: For developers or system administrators, benchmarking on the current machine can provide immediate insights into performance under specific configurations or after certain changes.
     Historical Comparison: Over time, with consistent methodology, you can track performance degradation or improvements.
 
+Benchmarking provides organizations with a competitive edge and allows them to adapt and thrive through change. It involves measuring key business metrics and practices and comparing them—within business areas or against competitors—to understand where and how to improve performance1. However, several contradictory elements emerge: Traditional benchmarks have often failed to properly characterize modern computer system performance. This creates confusion due to:
+
+    Component-level measurements being published as system performance
+    Various confusing metrics used by vendors
+    Lack of credible performance information and agreement among competing vendors3
+
+The Resolution
+The reality is that system performance depends on multiple variables, including:
+
+    Operating system efficiency
+    Compiler performance
+    Libraries
+    Algorithms
+    Application software3
+
+To resolve these contradictions, modern benchmarking has evolved to use simpler measures like elapsed time. This approach, combined with machine-independent code, provides a more comprehensive and fair comparison between competing machines3.
 
 In summary, while there's an inherent contradiction in benchmarking from the current machine due to potential biases and self-referential issues, with proper controls and understanding of limitations, it can still be a useful tool in the right context.
 
