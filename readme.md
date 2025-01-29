@@ -8,6 +8,27 @@
     <img src="https://img.shields.io/github/last-commit/Tylemagne/TFM.svg">
 </p>
 
+Benchmarking from the current machine as an oxymoron:
+
+    Benchmarking is the act of running a standardized test or set of tests on a system (like a computer) to assess its performance. These tests are supposed to provide a consistent measure of how well the system performs under specific conditions.
+    From the current machine implies using the machine itself to measure its own performance. Herein lies the paradox:
+
+        Self-Reference Problem: When you benchmark from the current machine, you're essentially asking the machine to judge its own performance. This self-assessment can introduce biases or inaccuracies because the machine's current state (e.g., load from other processes, hardware conditions) might affect the benchmarking results.
+        Baseline Comparison: Benchmarks are most useful when they allow for comparison between different systems or the same system under different conditions. If you're only benchmarking from one machine, you miss out on comparative data unless you're comparing against previous benchmarks of the same machine, which still could be skewed by the machine's current state.
+        Hardware and Software Variability: Even on the same machine, results can vary due to software updates, background processes, or hardware degradation over time. This variability can make "current machine" benchmarking less reliable for drawing conclusions about performance over time.
+    Oxymoronic Nature: The term "oxymoron" here highlights the contradiction or irony in expecting an unbiased, accurate performance measure from the very system that's being measured. It's akin to saying "the sound of silence" in benchmarking terms - the act of measuring might alter what is being measured, especially in real-time performance scenarios.
+
+
+However, this doesn't mean benchmarking from the current machine is entirely useless:
+
+    Control for Variables: If done with careful controls (like ensuring no other significant processes are running, using stable benchmarks, and understanding the machine's state), you can still get meaningful data. 
+    Immediate Feedback: For developers or system administrators, benchmarking on the current machine can provide immediate insights into performance under specific configurations or after certain changes.
+    Historical Comparison: Over time, with consistent methodology, you can track performance degradation or improvements.
+
+
+In summary, while there's an inherent contradiction in benchmarking from the current machine due to potential biases and self-referential issues, with proper controls and understanding of limitations, it can still be a useful tool in the right context.
+
+
 Tyler's Frame Machine saves the day by giving you a portable, efficient, small, easy to use, cross platform executable that you can use to benchmark or stress test anything... and charges you nothing for it. If you're a frequent benchmarker, hardware tester, or system builder, TFM is your new best friend. It can demonstrate differences between framerates, stress test machines, and even help you calibrate for live streams. Features include physics objects, spawn rate control, gravity control, resolution selection, windowed mode control, physics framerate capping, global FPS capping, camera movement speed, and more. There's no huge installer, no annoying splash sceen, and no crazy list of configurations to get through. It just opens and starts to run - you can change everything in realtime!
 
 <video width="100%" height="auto" loop autoplay muted preload> 
