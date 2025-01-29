@@ -31,7 +31,6 @@ Benchmarking provides organizations with a competitive edge and allows them to a
     Various confusing metrics used by vendors
     Lack of credible performance information and agreement among competing vendors3
 
-The Resolution
 The reality is that system performance depends on multiple variables, including:
 
     Operating system efficiency
